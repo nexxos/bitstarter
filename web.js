@@ -3,6 +3,7 @@ var app = express.createServer(express.logger());
 
 var fs = require('fs');
 
+app.use(express.favicon("public/images/favicon.ico")); // include favicon
 
 app.get('/', function(request, response) {
   // response.send('Hello World!');
@@ -25,7 +26,6 @@ fs.readFile('index.html', 'utf8', function (err, data) {
 });
 
 */
-
 
 
 var port = process.env.PORT || 5000;
