@@ -3,7 +3,7 @@ var app = express.createServer(express.logger());
 
 var fs = require('fs');
 
-app.use(express.favicon(__dirname + '/images/favicon.ico')); // include favicon
+app.use(express.favicon(__dirname + '/images/favicon.ico')); // include favicon, see:  http://evening-wave-3179.herokuapp.com/favicon.ico
 
 app.get('/', function(request, response) {
   // response.send('Hello World!');
