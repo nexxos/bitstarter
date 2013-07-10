@@ -3,7 +3,7 @@ var app = express.createServer(express.logger());
 
 var fs = require('fs');
 
-app.use(express.favicon(__dirname + 'public/images/favicon.ico')); // include favicon
+app.use(express.favicon(__dirname + 'images/favicon.ico')); // include favicon
 
 app.get('/', function(request, response) {
   // response.send('Hello World!');
