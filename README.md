@@ -12,4 +12,4 @@ Forked from https://github.com/heroku/node-js-sample.git
 
 [1]: https://class.coursera.org/startup-001 
 [2]: https://twitter.com/nexxos_de 
-[3]: http://evening-wave-3179.herokuapp.com/favicon.ico
+[3]: http://evening-wave-3179.herokuapp.com/
