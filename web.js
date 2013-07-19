@@ -3,7 +3,8 @@ var app = express.createServer(express.logger());
 
 var fs = require('fs');
 
-app.use(express.favicon(__dirname + '/images/favicon.ico')); // include favicon, see:  http://evening-wave-3179.herokuapp.com/favicon.ico
+// include favicon
+app.use(express.favicon(__dirname + '/images/favicon.ico')); 
 
 app.get('/', function(request, response) {
   // response.send('Hello World!');
@@ -28,7 +29,7 @@ fs.readFile('index.html', 'utf8', function (err, data) {
 */
 
 
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || 8080;
 app.listen(port, function() {
   console.log("Listening on " + port);
 });
